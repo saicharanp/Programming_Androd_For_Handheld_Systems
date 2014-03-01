@@ -1,0 +1,22 @@
+In this lab you will experiment with the Activity Class.
+
+You will create a simple application that monitors itself and reports its behavior by emitting LogCat messages. After completing the lab you should better understand the Activity class, the Activity lifecycle, and the Android reconfiguration process.
+
+Download the full lab writeup and skeleton files. Unzip the download package. You'll find a top-level directory. Inside there is a Writeup directory, containing the Lab writeup. Please read it carefully before starting. There is also a Misc directory containing a PDF file you'll use while doing the Lab. And finally, there is a SourceFiles directory with two subdirectories: Skeletons and TestCases. Import each of these directories into your IDE.
+
+Fill in the code that is missing from the Skeleton in accordance with the instructions given in the Lab writeup. As you are make progress through the Lab, run the test cases to see if you have implemented some basic functionality.
+
+Be aware the test cases in the TestCases directory are Robotium test cases. You run them as "Android Junit Test." These test cases have been developed and run against a Galaxy Nexus AVD at API level 18. You may therefore need to download API level 18 (In Eclipse, use the SDK Manager available from the Java Perspective). These test cases are meant to steer you in the right direction. They are not exhaustive and passing them does not mean that your program "works" under all circumstances and inputs.
+
+After you have finished the programming part of the assignment, follow the steps below to submit your work for grading.
+
+Enable the Eclipse LogCat view, if it isn't enabled already. To do this, select Window -> Show View -> Other -> Android -> LogCat.
+Connect your device or start your emulator. Make sure that you can see output in your LogCat view.
+Towards the top center of the LogCat view, there is a search bar. In the bar enter the following string, without the quotes: "tag:Lab-Activity". Make sure you enter this string exactly. This will filter the LogCat output to only show Log messages whose tag field matches the string.
+For each test case repeat the following steps.
+
+Towards the top right of the LogCat view, there is a "Clear Log" button (it has a small red X on it). Press this button to clear the log.
+Now run your test.
+After the test finishes, Click anywhere in the LogCat view, then select all (ctrl + A).
+This will select all the LogCat output from the test run. Click the export/ save button, which is towards the top right of the LogCat view, next to the clear log button.
+Save the selection to a text file and destination of your choice, then click on the submit button associated with this test case to upload the text file to Coursera.
